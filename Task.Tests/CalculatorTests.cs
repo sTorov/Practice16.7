@@ -30,7 +30,7 @@ namespace Task.Tests
         {
             int actual = calculator.Subtraction(a, b);
 
-            Assert.AreEqual(actual, expected, $"Сложение {a} и {b} - Результат {actual} не равен {expected}");
+            Assert.AreEqual(actual, expected, $"Вычитание {a} и {b} - Результат {actual} не равен {expected}");
         }
 
         [TestCase(1, 1, ExpectedResult = 1)]
